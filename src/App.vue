@@ -14,6 +14,8 @@
       :date-time="dateTime"
     />
 
+    <ButtonComponent display-text="Prem's Button" />
+
     <!-- <input type="text" ref="name" />
     <button @click="handleClick">Click Me</button> -->
     
@@ -25,6 +27,7 @@ import CounterComponent from "./components/CounterComponent.vue";
 import SquaredComponent from './components/SquaredComponent.vue';
 import ButtonControlsComponent from './components/ButtonControlsComponent.vue';
 import PropsComponent from "./components/PropsComponent.vue";
+import ButtonComponent from './components/Button.vue'
 
 export default {
   name: 'App',
@@ -32,7 +35,8 @@ export default {
     CounterComponent,
     SquaredComponent,
     ButtonControlsComponent,
-    PropsComponent
+    PropsComponent,
+    ButtonComponent
   },
   data() {
     return {
