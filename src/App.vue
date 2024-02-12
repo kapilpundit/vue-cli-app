@@ -16,6 +16,8 @@
 
     <ButtonComponent display-text="Prem's Button" />
 
+    <ClockComponent></ClockComponent>
+
     <!-- <input type="text" ref="name" />
     <button @click="handleClick">Click Me</button> -->
     
@@ -28,6 +30,7 @@ import SquaredComponent from './components/SquaredComponent.vue';
 import ButtonControlsComponent from './components/ButtonControlsComponent.vue';
 import PropsComponent from "./components/PropsComponent.vue";
 import ButtonComponent from './components/Button.vue'
+import ClockComponent from "./components/ClockComponent.vue";
 
 export default {
   name: 'App',
@@ -36,8 +39,9 @@ export default {
     SquaredComponent,
     ButtonControlsComponent,
     PropsComponent,
-    ButtonComponent
-  },
+    ButtonComponent,
+    ClockComponent,
+},
   data() {
     return {
       title: 'My First Vue App!',
