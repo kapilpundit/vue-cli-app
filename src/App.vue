@@ -16,7 +16,7 @@
 
     <ButtonComponent display-text="Prem's Button" />
 
-    <ClockComponent></ClockComponent>
+    <ClockComponent :updateInterval="5000"></ClockComponent>
 
     <!-- <input type="text" ref="name" />
     <button @click="handleClick">Click Me</button> -->
