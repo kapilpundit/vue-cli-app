@@ -8,8 +8,6 @@
 
 <script>
 
-// import { ref, onMounted, onUnmounted } from 'vue';
-
 export default{
     name:"ClockComponent",
     data() {
@@ -38,29 +36,5 @@ export default{
             this.currentTime = `${hours}:${minutes}:${seconds}`;
         }
     }
-    // setup(props) {
-    //     const currentTime = ref(new Date().toLocaleTimeString());
-
-    //     const updateTime = () => {
-    //         currentTime.value = new Date().toLocaleTimeString();
-    //     };
-
-    //     // Update the time every second
-    //     const intervalId = setInterval(updateTime, props.updateInterval);
-
-    //     onMounted(() => {
-    //         // Update the time immediately when the component is mounted
-    //         updateTime();
-    //     });
-
-    //     onUnmounted(() => {
-    //         // Clear the interval when the component is unmounted
-    //         clearInterval(intervalId);
-    //     });
-
-    //     return {
-    //         currentTime
-    //     };
-    // }
 }
 </script>
